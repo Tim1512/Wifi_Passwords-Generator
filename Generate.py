@@ -88,7 +88,7 @@ def Generate(F,L,C):
 	def Area():
 		os.system('clear')
 		if os.path.exists('Phone.lst') is False:
-			pass #os.system('crunch 10 10 1234567890 -t 585%%%%%%% -d 2 -o Phone.lst')
+			pass #os.system('crunch 10 10 1234567890 -t 619%%%%%%% -d 2 -o Phone.lst')
 	if len(F) != 0 and len(F) >= 5:
 		First()
 	else:
