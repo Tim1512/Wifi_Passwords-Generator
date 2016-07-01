@@ -89,11 +89,11 @@ def Generate(F,L,C):
 		os.system('clear')
 		if os.path.exists('Phone.lst') is False:
 			pass #os.system('crunch 10 10 1234567890 -t 619%%%%%%% -d 2 -o Phone.lst')
-	if len(F) != 0 and len(F) >= 5:
+	if len(F) != 0 and len(F) >= 6:
 		First()
 	else:
 		os.system('clear');print '[!] The Name Of The Wifi Is Too Small To Generate All Of The Passwords With';time.sleep(3);sys.exit()
-	if len(L) != 0 and len(L) >= 5 and L.lower() != F.lower():
+	if len(L) != 0 and len(L) >= 6 and L.lower() != F.lower():
 		Last()
 	else:
 		os.system('clear');print '[!] The Name Of The Wifi Is Too Small To Generate All Of The Passwords With';time.sleep(3);sys.exit()
