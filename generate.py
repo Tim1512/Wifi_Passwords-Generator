@@ -30,6 +30,7 @@ class Wifi(object):
   if self.lname:
    if self.fname.lower() != self.lname.lower():
     self.populate(self.lname)
+    self.populate('{}{}'.format(self.fname,self.lname))
 
   if not len(self.keys):return
   with open('pass.lst','w') as fwrite:
